@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url("./font/Norse-Bold.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +14,7 @@
 /* Doc Flow */
 
 body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
 }
 
@@ -67,6 +75,7 @@ h1{
     width: 100%;
     height: 15%;
     margin-top: 20vh;
+    font-family: Norse-Bold;
     font-size: 5rem;
     display: flex;
     align-items: center;
