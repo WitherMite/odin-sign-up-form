@@ -28,7 +28,25 @@ main {
 
 /* Form Content */
 
+header{
+    margin: 8rem 2rem 2rem;
+}
 
+.text{
+    margin-bottom: 1.5rem;
+}
+
+form{
+    height: 33.33svh;
+}
+
+fieldset{
+    height: 100%;
+}
+
+footer{
+    margin: 2rem 2rem 8rem;
+}
 
 /* Sidebar */
 
