@@ -45,6 +45,7 @@ header {
     margin: 0 2rem 2rem;
     min-height: 33.33svh;
     font-size: 1.25rem;
+    font-weight: 450;
 }
 
 .opener {
@@ -67,6 +68,7 @@ legend {
     top: 1rem;
     left: 2rem;
     font-size: 1.25rem;
+    font-weight: 450;
 }
 
 fieldset > div {
@@ -86,6 +88,9 @@ label {
 input {
     height: 1.75rem;
     width: 14rem;
+    padding-left: 1ch;
+    font-size: .9rem;
+    font-family: inherit;
     border: solid 1px #E5E7EB;
     border-radius: 4px;
 }

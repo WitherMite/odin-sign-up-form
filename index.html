@@ -37,33 +37,57 @@
                 You <em>know</em> you want to.
             </p>
         </header>
-        <form id="signup">
+        <form id="signup" action="" method="post">
             <fieldset>
                 <legend>Let's do this!</legend>
                 <div class="spacer"></div>
                 <div>
-                    <label for="">FIRST NAME</label><br>
-                    <input type="text">
+                    <label for="first-name">FIRST NAME</label><br>
+                    <input
+                        type="text" id="first-name" name="first-name"
+                        maxlength="30"
+                        spellcheck="false" 
+                        required>
                 </div>
                 <div>
-                    <label for="">LAST NAME</label><br>
-                    <input type="text">
+                    <label for="last-name">LAST NAME</label><br>
+                    <input
+                        type="text" id="last-name" name="last-name"
+                        maxlength="30"
+                        spellcheck="false"
+                        required>
                 </div>
                 <div>
-                    <label for="">EMAIL</label><br>
-                    <input type="text">
+                    <label for="email">EMAIL</label><br>
+                    <input
+                        type="email" id="email" name="email"
+                        maxlength="30"
+                        spellcheck="false"
+                        required>
                 </div>
                 <div>
-                    <label for="">PHONE NUMBER</label><br>
-                    <input type="text">
+                    <label for="phone-number">PHONE NUMBER</label><br>
+                    <input
+                        type="tel" id="phone-number" name="phone-number"
+                        spellcheck="false"
+                        maxlength="30"
+                        required>
                 </div>
                 <div>
-                    <label for="">PASSWORD</label><br>
-                    <input type="text">
+                    <label for="password">PASSWORD</label><br>
+                    <input
+                        type="password" id="password" name="password"
+                        maxlength="30"
+                        spellcheck="false"
+                        required>
                 </div>
                 <div>
-                    <label for="">CONFIRM PASSWORD</label><br>
-                    <input type="text">
+                    <label for="password-repeat">CONFIRM PASSWORD</label><br>
+                    <input
+                        type="password" id="password-repeat"
+                        maxlength="30"
+                        spellcheck="false"
+                        required>
                 </div>
             </fieldset>
         </form>
