@@ -37,7 +37,7 @@
                 You <em>know</em> you want to.
             </p>
         </header>
-        <form id="signup" action="" method="post">
+        <form id="signup"> <!-- action="" method="post" -->
             <fieldset>
                 <legend>Let's do this!</legend>
                 <div class="spacer"></div>
@@ -46,48 +46,42 @@
                     <input
                         type="text" id="first-name" name="first-name"
                         maxlength="30"
-                        spellcheck="false" 
-                        required>
+                        spellcheck="false">
                 </div>
                 <div>
                     <label for="last-name">LAST NAME</label><br>
                     <input
                         type="text" id="last-name" name="last-name"
                         maxlength="30"
-                        spellcheck="false"
-                        required>
+                        spellcheck="false">
                 </div>
                 <div>
                     <label for="email">EMAIL</label><br>
                     <input
                         type="email" id="email" name="email"
                         maxlength="30"
-                        spellcheck="false"
-                        required>
+                        spellcheck="false">
                 </div>
                 <div>
                     <label for="phone-number">PHONE NUMBER</label><br>
                     <input
                         type="tel" id="phone-number" name="phone-number"
                         spellcheck="false"
-                        maxlength="30"
-                        required>
+                        maxlength="30">
                 </div>
                 <div>
                     <label for="password">PASSWORD</label><br>
                     <input
                         type="password" id="password" name="password"
                         maxlength="30"
-                        spellcheck="false"
-                        required>
+                        spellcheck="false">
                 </div>
                 <div>
                     <label for="password-repeat">CONFIRM PASSWORD</label><br>
                     <input
                         type="password" id="password-repeat"
                         maxlength="30"
-                        spellcheck="false"
-                        required>
+                        spellcheck="false">
                 </div>
             </fieldset>
         </form>

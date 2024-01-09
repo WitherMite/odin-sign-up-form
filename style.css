@@ -11,6 +11,12 @@
     box-sizing: border-box;
 }
 
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+}
+
 /* Doc Flow */
 
 body {
@@ -95,9 +101,17 @@ input {
     width: 14rem;
     padding-left: 1ch;
     font-size: .9rem;
-    font-family: inherit;
     border: solid 1px #E5E7EB;
     border-radius: 4px;
+}
+
+input:focus {
+    outline: solid 1px blue;
+    box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.28);
+}
+
+input:invalid {
+    outline: solid 1px red;
 }
 
 footer {
