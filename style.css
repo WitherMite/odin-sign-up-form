@@ -105,13 +105,13 @@ input {
     border-radius: 4px;
 }
 
+input:invalid {
+    outline: solid 1px red;
+}
+
 input:focus {
     outline: solid 1px blue;
     box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.28);
-}
-
-input:invalid {
-    outline: solid 1px red;
 }
 
 footer {
