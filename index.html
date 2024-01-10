@@ -46,42 +46,48 @@
                     <input
                         type="text" id="first-name" name="first-name"
                         maxlength="30"
-                        spellcheck="false">
+                        spellcheck="false"
+                        autocomplete="off">
                 </div>
                 <div>
                     <label for="last-name">LAST NAME</label><br>
                     <input
                         type="text" id="last-name" name="last-name"
                         maxlength="30"
-                        spellcheck="false">
+                        spellcheck="false"
+                        autocomplete="off">
                 </div>
                 <div>
                     <label for="email">EMAIL</label><br>
                     <input
                         type="email" id="email" name="email"
                         maxlength="30"
-                        spellcheck="false">
+                        spellcheck="false"
+                        autocomplete="off">
                 </div>
                 <div>
                     <label for="phone-number">PHONE NUMBER</label><br>
                     <input
                         type="tel" id="phone-number" name="phone-number"
                         spellcheck="false"
-                        maxlength="30">
+                        maxlength="30"
+                        autocomplete="off">
                 </div>
-                <div>
+                <div class="pwd">
                     <label for="password">PASSWORD</label><br>
                     <input
                         type="password" id="password" name="password"
                         maxlength="30"
-                        spellcheck="false">
+                        spellcheck="false"
+                        autocomplete="off">
                 </div>
-                <div>
+                <div class="pwd">
                     <label for="password-repeat">CONFIRM PASSWORD</label><br>
                     <input
                         type="password" id="password-repeat"
                         maxlength="30"
-                        spellcheck="false">
+                        spellcheck="false"
+                        autocomplete="off">
                 </div>
             </fieldset>
         </form>
@@ -91,4 +97,5 @@
         </footer>
     </main>
 </body>
+    <script src="/password-match.js"></script>
 </html>
